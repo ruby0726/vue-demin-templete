@@ -1,0 +1,85 @@
+// 颜色
+$colors: (
+  "primary": #409EFF,
+  "info": #4394e4,
+  "red": red,
+  "green": #67c23a,
+  "orange": #E6A23C,
+  "warning": #F56C6C,
+  "white": #ffffff,
+  "light": #f9f9f9,
+  "grey-1": #999999,
+  "grey": #666666,
+  "dark-1": #5f5f5f,
+  "dark": #222222,
+  "black-1": #171823,
+  "black": #000000,
+);
+
+// 字体大小
+$font-sizes: (
+  sm: 12px,
+  md: 14px,
+  lg: 16px,
+  xl: 18px,
+  xxl: 20px,
+  xxxl: 24px
+);
+
+//flex
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-1 {
+  flex: 1;
+}
+
+$flex-jc: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around,
+  evenly: space-evenly,
+);
+
+$flex-ai: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  stretch: stretch,
+);
+
+//.mt-1 => margin top
+//spacing
+
+$spacing-types: (
+  m: margin,
+  p: padding,
+);
+
+$spacing-directions: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left,
+);
+
+$spacing-sizes: (
+  zero: 0px,
+  xs: 5px,
+  sm: 10px,
+  md: 15px,
+  lg: 20px,
+  xl: 25px,
+  xxl: 30px
+);
